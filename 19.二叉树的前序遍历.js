@@ -1,7 +1,3 @@
-/**
- * 二叉树的前序遍历
- */
-
 function Node(value) {
   this.value = value;
   this.left = null;

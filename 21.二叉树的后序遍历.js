@@ -24,8 +24,8 @@ b.right = e;
 function f1(root) {
   if (root === null) return;
   f1(root.left);
-  console.log(root.value);
   f1(root.right);
+  console.log(root.value);
 }
 
 f1(a);
